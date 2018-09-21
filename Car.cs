@@ -7,5 +7,20 @@ namespace MVCassignment1
 {
     public class Car
     {
+        public int Cost { get; set; }
+        public int Year { get; set; }
+        public int Make { get; set; }
+        public int Model { get; set; }
+        public string Color { get; set; }
+
+        public Car(int cost, int year, int make, int model, string color)
+        {
+            Cost = cost;
+            Year = year;
+            Make = make;
+            Model = model;
+            Color = color;
+
+        }
     }
 }
